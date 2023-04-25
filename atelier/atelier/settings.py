@@ -34,11 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'catalog.apps.CatalogConfig',
+    # 'catalog.apps.CatalogConfig',
 ]
 # 'catalog.apps.CatalogConfig',
-    # 'alendre.apps.AlendreConfig',
-    # 'blog.apps.BlogConfig'
 # This object was create for us in /catalog/apps.py
 
 
@@ -74,7 +72,6 @@ WSGI_APPLICATION = 'atelier.wsgi.application'
 
 # Time zone
 # TIME_ZONE = 'UTC'
-
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASES = {
