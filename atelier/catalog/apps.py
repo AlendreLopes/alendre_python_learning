@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AlendreConfig(AppConfig):
+class CatalogConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'alendre'
+    name = 'catalog'
